@@ -7,6 +7,6 @@ running.
 
 To install the systemd service:
 ```
-sudo cp safe-shutdown.service /etc/system/...
+sudo cp safe-shutdown.service /lib/systemd/system
 sudo systemctl enable safe-shutdown
 ```
